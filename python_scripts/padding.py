@@ -13,7 +13,7 @@ def format_class(name: str, attr: str):
     return list_vals
 
 
-x = format_class("margin-right-px-", "margin-right")
+x = format_class("top-px-", "top")
 
 file = open("output/output.txt", "w+")
 for i in range(len(x)):

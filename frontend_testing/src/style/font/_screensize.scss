@@ -1,0 +1,8 @@
+.h1-adjust {
+  font-size: clamp(10px, 100%, 100px) !important;
+}
+
+.word-break {
+  word-break: break-all;
+  word-wrap: break-word;
+}

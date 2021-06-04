@@ -1,14 +1,14 @@
-.card {
+.button {
   border-radius: 25px;
   width: clamp(5px, 100%, 300px);
-
+  overflow: hidden;
   &:active {
     transform: scale(1.1);
     transition: 100ms ease;
   }
 }
 
-.card-text {
+.button-text {
   text-align: center;
   font-size: clamp(0.1em, 100%, 1em);
 }
