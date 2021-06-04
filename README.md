@@ -29,3 +29,5 @@ Using SCSS to make a set of class names that can be used through a project to he
 ## Why is this being done?
 
 - This is to help alleviate some frustrations and help automate a lot of tedious tasks and to not become dependent on third party frameworks.
+
+

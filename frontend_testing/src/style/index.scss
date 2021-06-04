@@ -1,16 +1,3 @@
-@import "padding/_padpercent";
-@import "padding/_padpixel";
-@import "flex/flex";
-@import "font/_fontcolor";
-@import "font/_align";
-@import "card/_card";
-@import "size/_width";
-@import "size/_height";
-@import "margin/margin_x"; 
-@import "margin/marginpercent"; 
-@import "font/_sizepx"; 
-
-
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap");
 
 body {
@@ -18,3 +5,11 @@ body {
   padding: 0px;
   font-family: "Karla", sans-serif;
 }
+
+@import "card/index";
+@import "flex/index";
+@import "font/index";
+@import "margin/index";
+@import "padding/index";
+@import "position/index";
+@import "size/index";

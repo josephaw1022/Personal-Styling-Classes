@@ -11,7 +11,6 @@ const App = () => {
      justify-center 
      txt-center
      height-100-percent
-     
       align-self-center
       "
     >
