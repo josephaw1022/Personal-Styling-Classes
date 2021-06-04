@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap");
 
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Karla", sans-serif;
-}
-
 @import "card/index";
 @import "flex/index";
 @import "font/index";
@@ -13,3 +7,13 @@ body {
 @import "padding/index";
 @import "position/index";
 @import "size/index";
+@import "color/index";
+
+body,
+html,
+#root {
+  font-family: "Karla", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: $black;
+}

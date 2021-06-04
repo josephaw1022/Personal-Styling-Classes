@@ -11,13 +11,14 @@
 }
 
 .flex-row {
+  @include flex;
   flex-direction: row;
 }
 
 .flex-col {
+  @include flex;
   flex-direction: column;
 }
-
 
 /////////////////////////////////////////////
 
@@ -49,4 +50,12 @@
 
 .justify-left {
   justify-content: left;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
 }

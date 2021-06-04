@@ -1,0 +1,28 @@
+
+.bg-red {
+  background-color: $red;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-pink {
+  background-color: $pink;
+}
+
+.bg-green {
+  background-color: $green;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-black {
+  background-color: $black;
+}

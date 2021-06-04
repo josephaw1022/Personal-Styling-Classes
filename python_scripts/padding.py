@@ -13,7 +13,10 @@ def format_class(name: str, attr: str):
     return list_vals
 
 
-x = format_class("pad-percent-", "padding")
+x = format_class("margin-right-px-", "margin-right")
 
-for i in range(100):
-    print(x[i])
+file = open("output/output.txt", "w+")
+for i in range(len(x)):
+    file.write("{} \n".format(str(x[i])))
+
+file.close()
